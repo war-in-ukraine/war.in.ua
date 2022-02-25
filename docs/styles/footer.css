@@ -1,0 +1,11 @@
+.footer {
+  max-width: 960px;
+  margin: auto;
+  padding: 1rem 0 2rem;
+  display: flow-root;
+}
+
+.footer__made-in {
+  width: 5rem;
+  float: right;
+}
