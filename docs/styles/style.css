@@ -1,6 +1,7 @@
 @import url('./reset.css');
+@import url('./fonts.css');
 @import url('./layout.css');
 @import url('./typography.css');
-@import url('./footer.css');
 @import url('./header.css');
 @import url('./language.css');
+@import url('./footer.css');
