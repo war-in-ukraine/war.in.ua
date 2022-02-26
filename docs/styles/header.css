@@ -3,3 +3,13 @@
   margin: 0 auto;
   padding: 1rem 0;
 }
+
+.logo {
+  height: 100px;
+  width: 100px;
+  display: block;
+}
+
+.logo img {
+  max-width: 100%;
+}
