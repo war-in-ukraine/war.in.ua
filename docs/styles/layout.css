@@ -9,8 +9,8 @@ main {
 
 .qr-code {
   display: block;
-  max-width: 80%;
-  margin: 0 0 0 -.6rem;
+  max-width: 100%;
+  margin: 0;
 }
 
 section {
@@ -18,16 +18,30 @@ section {
 }
 
 .codes {
-  display: flex;
   margin: 0;
 }
 
-.half {
-  width: calc(50% - 1rem);
+@media (min-width: 450px) {
+  .qr-code {
+    max-width: 80%;
+    margin: 0 0 0 -.6rem;
+  }
+
+  .codes {
+    display: flex;
+  }
+
+  .half {
+    width: calc(50% - 1rem);
+  }
+
+  .half:first-child {
+    margin-right: 2rem;
+  }
 }
 
-.half:first-child {
-  margin-right: 2rem;
+.codes a {
+  word-break: break-all;
 }
 
 .codes h2{
