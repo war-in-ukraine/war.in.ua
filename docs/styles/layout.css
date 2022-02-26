@@ -9,10 +9,33 @@ main {
 
 .qr-code {
   display: block;
-  width: 200px;
-  vertical-align: top;
+  max-width: 80%;
+  margin: 0 0 0 -.6rem;
 }
 
 section {
   margin: 2rem auto;
+}
+
+.codes {
+  display: flex;
+  margin: 0;
+}
+
+.half {
+  width: calc(50% - 1rem);
+}
+
+.half:first-child {
+  margin-right: 2rem;
+}
+
+.codes h2{
+  margin-top: 0;
+  font-size: 2rem;
+  min-height: rem;
+}
+
+.codes section {
+  margin: 0;
 }
